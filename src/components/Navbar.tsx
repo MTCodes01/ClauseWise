@@ -21,7 +21,7 @@ const Navbar = () => {
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
               <BookOpen className="h-8 w-8 text-blue-600" />
-              <span className="ml-2 text-xl font-semibold text-gray-900">LegalAssist</span>
+              <span className="ml-2 text-xl font-semibold text-gray-900">ClauseWise</span>
             </Link>
           </div>
           

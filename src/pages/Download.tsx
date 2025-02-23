@@ -2,26 +2,28 @@ import { motion } from "framer-motion";
 import { AppWindow as Windows, HelpCircle } from "lucide-react";
 
 const Download = () => {
+  const version = "v1.1";
   const downloads = [
     {
       icon: <Windows className="h-12 w-12" />,
       name: "Windows",
-      version: "v1.0.0",
+      version: version,
       requirements: "Windows 10 or later",
-      link: "#",
+      link: `https://github.com/Pranay1315/ClauseWise/releases/download/${version}/app.exe`,
     },
+    // Add more download options
   ];
 
   const faqs = [
     {
-      question: "How do I install LegalAssist?",
+      question: "How do I install ClauseWise?",
       answer:
         "Download the appropriate version for your operating system and run the installer. Follow the on-screen instructions to complete the installation.",
     },
     {
       question: "Is an internet connection required?",
       answer:
-        "No, LegalAssist works completely offline. However, you'll need an internet connection for the initial download and updates.",
+        "No, ClauseWise works completely offline. However, you'll need an internet connection for the initial download and updates.",
     },
     {
       question: "How are my documents stored?",
@@ -31,7 +33,7 @@ const Download = () => {
     {
       question: "Can I transfer my documents between devices?",
       answer:
-        "Yes, you can export your documents and import them on another device running LegalAssist.",
+        "Yes, you can export your documents and import them on another device running ClauseWise.",
     },
   ];
 
@@ -44,7 +46,7 @@ const Download = () => {
             animate={{ opacity: 1, y: 0 }}
             className="text-4xl font-bold text-gray-900 mb-4"
           >
-            Download LegalAssist
+            Download ClauseWise
           </motion.h1>
           <p className="text-xl text-gray-600">
             Choose your platform and get started today
@@ -100,4 +102,3 @@ const Download = () => {
 };
 
 export default Download;
-

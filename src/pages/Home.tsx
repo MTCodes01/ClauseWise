@@ -1,6 +1,6 @@
-import { motion } from 'framer-motion';
-import { FileText, Shield, Wifi, Download } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import { motion } from "framer-motion";
+import { FileText, Shield, Wifi, Download } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -20,7 +20,8 @@ const Home = () => {
               <span className="text-blue-200">No Internet Required</span>
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-blue-100">
-              Create, manage, and sign legal documents with our powerful offline assistant
+              Create, manage, and sign legal documents with our powerful offline
+              assistant
             </p>
             <Link
               to="/download"
@@ -42,7 +43,9 @@ const Home = () => {
             >
               <FileText className="h-12 w-12 text-blue-600 mb-4" />
               <h3 className="text-xl font-semibold mb-2">Document Generator</h3>
-              <p className="text-gray-600">Create professional legal documents with our intuitive templates</p>
+              <p className="text-gray-600">
+                Create professional legal documents with our intuitive templates
+              </p>
             </motion.div>
 
             <motion.div
@@ -51,7 +54,9 @@ const Home = () => {
             >
               <Shield className="h-12 w-12 text-blue-600 mb-4" />
               <h3 className="text-xl font-semibold mb-2">Secure Storage</h3>
-              <p className="text-gray-600">Your documents are encrypted and stored safely on your device</p>
+              <p className="text-gray-600">
+                Your documents are encrypted and stored safely on your device
+              </p>
             </motion.div>
 
             <motion.div
@@ -60,7 +65,9 @@ const Home = () => {
             >
               <Wifi className="h-12 w-12 text-blue-600 mb-4" />
               <h3 className="text-xl font-semibold mb-2">Offline Access</h3>
-              <p className="text-gray-600">Work on your documents anytime, anywhere - no internet needed</p>
+              <p className="text-gray-600">
+                Work on your documents anytime, anywhere - no internet needed
+              </p>
             </motion.div>
 
             <motion.div
@@ -69,7 +76,9 @@ const Home = () => {
             >
               <Download className="h-12 w-12 text-blue-600 mb-4" />
               <h3 className="text-xl font-semibold mb-2">Easy Export</h3>
-              <p className="text-gray-600">Export your documents in multiple formats (PDF, DOCX, etc.)</p>
+              <p className="text-gray-600">
+                Export your documents in multiple formats (PDF, DOCX, etc.)
+              </p>
             </motion.div>
           </div>
         </div>
@@ -78,8 +87,12 @@ const Home = () => {
       {/* CTA Section */}
       <section className="bg-gray-50 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to streamline your legal document workflow?</h2>
-          <p className="text-xl text-gray-600 mb-8">Join thousands of professionals who trust LegalAssist</p>
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">
+            Ready to streamline your legal document workflow?
+          </h2>
+          <p className="text-xl text-gray-600 mb-8">
+            Join thousands of professionals who trust ClauseWise
+          </p>
           <Link
             to="/download"
             className="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-blue-700 transition-colors duration-200"

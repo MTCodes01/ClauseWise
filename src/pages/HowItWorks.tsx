@@ -1,28 +1,31 @@
-import { motion } from 'framer-motion';
-import { FileText, Edit, Download, Check } from 'lucide-react';
+import { motion } from "framer-motion";
+import { FileText, Edit, Download, Check } from "lucide-react";
 
 const HowItWorks = () => {
   const steps = [
     {
       icon: <FileText className="h-12 w-12" />,
-      title: 'Choose a Template',
-      description: 'Select from our extensive library of legal document templates.'
+      title: "Choose a Template",
+      description:
+        "Select from our extensive library of legal document templates.",
     },
     {
       icon: <Edit className="h-12 w-12" />,
-      title: 'Customize Content',
-      description: 'Fill in your information and customize the document to your needs.'
+      title: "Customize Content",
+      description:
+        "Fill in your information and customize the document to your needs.",
     },
     {
       icon: <Check className="h-12 w-12" />,
-      title: 'Review & Sign',
-      description: 'Review your document and add digital signatures if needed.'
+      title: "Review & Sign",
+      description: "Review your document and add digital signatures if needed.",
     },
     {
       icon: <Download className="h-12 w-12" />,
-      title: 'Export & Save',
-      description: 'Export your document in your preferred format and save it securely.'
-    }
+      title: "Export & Save",
+      description:
+        "Export your document in your preferred format and save it securely.",
+    },
   ];
 
   return (
@@ -73,7 +76,9 @@ const HowItWorks = () => {
           <div className="bg-gray-50 rounded-lg p-8">
             <div className="text-center mb-8">
               <h2 className="text-2xl font-bold mb-4">See It in Action</h2>
-              <p className="text-gray-600">Watch our quick demo video to see how easy it is to use LegalAssist</p>
+              <p className="text-gray-600">
+                Watch our quick demo video to see how easy it is to use ClauseWise
+              </p>
             </div>
             <div className="aspect-w-16 aspect-h-9 bg-gray-200 rounded-lg">
               {/* Replace with actual video player */}
