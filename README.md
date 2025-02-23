@@ -142,3 +142,7 @@ If you find ClauseWise helpful, please consider:
 - Contributing to its development
 
 Together, we can make legal documentation more accessible for everyone!
+
+<div align="center">
+  Made for <span><a href="https://fossunited.org/fosshack/2025">FOSS HACK 2025</span>a></span>!
+</div>
